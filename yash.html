@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vastushanti Invitation</title>
+
+<style>
+body {
+    font-family: 'Georgia', serif;
+    background: #f8f1e7;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    max-width: 1400px;
+    margin: 60px auto;
+    background: #f3d9a6;
+    padding: 60px;
+    border: 10px solid #d4af37;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #8b0000;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #444;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.subtitle {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.highlight {
+    color: #5c1903;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 28px;
+    color: white;
+    background: #8b0000;
+    text-decoration: none;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.home-link:hover {
+    background: #b22222;
+}
+
+/* Bubble Effect */
+.home-link:active::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: bubble 0.6s ease-out;
+}
+
+@keyframes bubble {
+    to {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <h2>॥ श्री गणेशाय नमः ॥</h2>
+
+    <h1>VASTUSHANTI</h1>
+    <h2>CEREMONY INVITATION</h2>
+
+    <p class="subtitle">
+        With the blessings of Almighty,<br>
+        We cordially invite you and your family<br>
+        to grace the auspicious occasion of
+    </p>
+
+    <div class="highlight">VASTUSHANTI POOJA</div>
+
+    <div>🌺🙏🌺</div>
+
+    <p>at our new home</p>
+
+    <a href="yash2.html" class="home-link">Shree Niwas</a>
+
+</div>
+
+</body>
+</html>
